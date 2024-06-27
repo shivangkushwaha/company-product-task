@@ -6,7 +6,7 @@ const endpointsFiles = ['./router/*.js'];
 const config = {
     info: {
         title: 'Company',
-        description: '',
+        description: 'Company api ',
     },
     tags: [ ],
     host: 'localhost:3000/api',

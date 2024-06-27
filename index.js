@@ -15,7 +15,7 @@ app.use(cors())
 
 app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
-app.use('/api/company',companyRouter)
+app.use('/api',companyRouter)
 app.use(helmet())
 app.use(morgan())
 

@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "Company",
-    "description": "",
+    "description": "Company api ",
     "version": "1.0.0"
   },
   "host": "localhost:3000/api",
@@ -12,7 +12,7 @@
     "https"
   ],
   "paths": {
-    "/": {
+    "/company": {
       "post": {
         "description": "",
         "parameters": [
@@ -24,14 +24,20 @@
               "properties": {
                 "logo": {
                   "example": "any"
+                },
+                "team": {
+                  "example": "any"
+                },
+                "contact": {
+                  "example": "any"
                 }
               }
             }
           }
         ],
         "responses": {
-          "default": {
-            "description": ""
+          "400": {
+            "description": "Bad Request"
           }
         }
       },
