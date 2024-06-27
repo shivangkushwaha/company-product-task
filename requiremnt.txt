@@ -16,29 +16,3 @@ Backend Task Details:
 8. Add swagger Documentation for both the API's
 Coding Test - SHIVANG
 
-
-
-curl --location 'http://localhost:3000/api/company?limit=10&search=Shivang&orderBy=name&sort=desc' \
---data ''
-
-
-curl --location 'http://localhost:3000/api/company' \
---header 'Content-Type: application/json' \
---data '{
-    "name":"Shivang",
-    "address":"address",
-    "contry":"contry",
-    "postalCode":"postalCode",
-    "city":"city",
-    "phone":"phone",
-    "phoneCode":"phoneCode",
-    "url":"url",
-    "contact":[],
-    "profile":"profile",
-    "fbLink":"fbLink",
-    "misson":"misson",
-    "team":[],
-    "productName":"productName",
-    "productdescription":"productdescription",
-    "productUrl":"productUrl"
-}'
